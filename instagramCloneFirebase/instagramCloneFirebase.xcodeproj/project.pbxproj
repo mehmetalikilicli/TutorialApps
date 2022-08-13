@@ -14,6 +14,7 @@
 		1741B45C28A3B9740075BA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741B45B28A3B9740075BA74 /* Assets.xcassets */; };
 		1741B45F28A3B9740075BA74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741B45D28A3B9740075BA74 /* LaunchScreen.storyboard */; };
 		1741B46728A3BC3D0075BA74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1741B46628A3BC3C0075BA74 /* GoogleService-Info.plist */; };
+		174814B128A6B55400825C5B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174814B028A6B55300825C5B /* FeedCell.swift */; };
 		179CD1C928A3ED2500EC19D9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CD1C828A3ED2500EC19D9 /* FeedViewController.swift */; };
 		179CD1CB28A3ED3700EC19D9 /* UpLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CD1CA28A3ED3700EC19D9 /* UpLoadViewController.swift */; };
 		179CD1CD28A3ED5100EC19D9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CD1CC28A3ED5100EC19D9 /* SettingsViewController.swift */; };
@@ -30,6 +31,7 @@
 		1741B45E28A3B9740075BA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1741B46028A3B9740075BA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1741B46628A3BC3C0075BA74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		174814B028A6B55300825C5B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		179CD1C828A3ED2500EC19D9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		179CD1CA28A3ED3700EC19D9 /* UpLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpLoadViewController.swift; sourceTree = "<group>"; };
 		179CD1CC28A3ED5100EC19D9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				1741B45628A3B9710075BA74 /* ViewController.swift */,
 				179CD1CC28A3ED5100EC19D9 /* SettingsViewController.swift */,
 				179CD1C828A3ED2500EC19D9 /* FeedViewController.swift */,
+				174814B028A6B55300825C5B /* FeedCell.swift */,
 				179CD1CA28A3ED3700EC19D9 /* UpLoadViewController.swift */,
 				1741B45828A3B9710075BA74 /* Main.storyboard */,
 				1741B46628A3BC3C0075BA74 /* GoogleService-Info.plist */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174814B128A6B55400825C5B /* FeedCell.swift in Sources */,
 				1741B45728A3B9710075BA74 /* ViewController.swift in Sources */,
 				1741B45328A3B9710075BA74 /* AppDelegate.swift in Sources */,
 				179CD1CB28A3ED3700EC19D9 /* UpLoadViewController.swift in Sources */,

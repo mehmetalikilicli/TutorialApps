@@ -23,11 +23,11 @@ class ViewController: UIViewController {
         let storedBirthday = UserDefaults.standard.object(forKey: "birthday")
         
         if let newName = storedName as? String {
-            nameLabel.text = newName
+            nameLabel.text = "Name: \(newName)"
         }
         
         if let newBirthday = storedBirthday as? String {
-            birthdayLabel.text = newBirthday
+            birthdayLabel.text = "Birthday: \(newBirthday)"
         }
 
 
@@ -39,8 +39,8 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(nameTextField.text!, forKey: "name")
         UserDefaults.standard.set(birthdayTextField.text!, forKey: "birthday")
         
-        let userName = nameTextField.text
-        let userBirthday = birthdayTextField.text
+        let userName = "Name: \(nameTextField.text!)"
+        let userBirthday = "Birthday: \(birthdayTextField.text!)"
         
         nameLabel.text = userName
         birthdayLabel.text = userBirthday
@@ -55,23 +55,17 @@ class ViewController: UIViewController {
         let storedBirthday = UserDefaults.standard.object(forKey: "birthday")
         
         
-        if storedName is String{
+        if storedName as? String != nil{
             UserDefaults.standard.removeObject(forKey: "name")
             nameLabel.text = "Name: "
         }
         
-        if storedBirthday is String{
+        if storedBirthday as? String != nil {
             UserDefaults.standard.removeObject(forKey: "birthday")
             birthdayLabel.text = "Birthday: "
         }
         
-        
-        
     }
-    
-    
-    
-    
     
 }
 
