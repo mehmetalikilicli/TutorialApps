@@ -13,10 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var cadLabel: UILabel!
     @IBOutlet weak var chfLable: UILabel!
     @IBOutlet weak var gbpLabel: UILabel!
-    @IBOutlet weak var usdLabel: UILabel!
+    @IBOutlet weak var eurLabel: UILabel!
     @IBOutlet weak var jpyLabel: UILabel!
     @IBOutlet weak var tryLabel: UILabel!
     
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +32,11 @@ class ViewController: UIViewController {
         // 3 - Parsing & JSON Serialization
         
         //Request
-        let url = URL(string: "https://api.apilayer.com/currency_data/live?source=EUR&apikey=0c82MFjtNkt15QRq1hjbzz85pxgV6RtH")
+        
+        
+            let url = URL(string: "https://api.apilayer.com/currency_data/live?source=USD&apikey=0c82MFjtNkt15QRq1hjbzz85pxgV6RtH")
+        
+        
         
         let session = URLSession.shared
         
@@ -56,22 +61,22 @@ class ViewController: UIViewController {
                             if let quotes = jsonResponse["quotes"] as? [String :  Any]{
                                 print(quotes)
                                 
-                                if let cad = quotes["EURCAD"] as? Double {
+                                if let cad = quotes["USDCAD"] as? Double {
                                     self.cadLabel.text = "CAD: \(cad)"
                                 }
-                                if let chf = quotes["EURCHF"] as? Double {
+                                if let chf = quotes["USDCHF"] as? Double {
                                     self.chfLable.text = "CHF: \(chf)"
                                 }
-                                if let gbp = quotes["EURGBP"] as? Double {
+                                if let gbp = quotes["USDGBP"] as? Double {
                                     self.gbpLabel.text = "GBP: \(gbp)"
                                 }
-                                if let jpy = quotes["EURJPY"] as? Double {
+                                if let jpy = quotes["USDJPY"] as? Double {
                                     self.jpyLabel.text = "JPY: \(jpy)"
                                 }
-                                if let usd = quotes["EURUSD"] as? Double {
-                                    self.usdLabel.text = "USD: \(usd)"
+                                if let eur = quotes["USDEUR"] as? Double {
+                                    self.eurLabel.text = "EUR: \(eur)"
                                 }
-                                if let turkish = quotes["EURTRY"] as? Double {
+                                if let turkish = quotes["USDTRY"] as? Double {
                                     self.tryLabel.text = "TRY: \(turkish)"
                                 }
                             }
