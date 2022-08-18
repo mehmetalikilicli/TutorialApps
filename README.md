@@ -3,14 +3,14 @@ iOS Tutorial Apps
 
 ALERT 
 
-![alertGif](https://user-images.githubusercontent.com/58392243/185402260-16201d39-c8c5-4f48-9533-10d556834bae.gif)
+![AlertGif](https://user-images.githubusercontent.com/58392243/185426189-aff97361-8174-4aff-909f-010f6c0ac67a.gif)
 
 ART BOOK 
 
+![ArtBookGif](https://user-images.githubusercontent.com/58392243/185426397-c8d4517e-aef6-4221-8360-44ec2f5fb669.gif)
 
-![ArtBookGif](https://user-images.githubusercontent.com/58392243/185421832-2d034f0d-e6fb-4b15-9ac6-d450e6e1eb29.gif)
 
 BIRTH DAY NOTE
 
-![BirthDayNoteGif](https://user-images.githubusercontent.com/58392243/185424861-95ccec9e-65c7-4aa1-9acb-dff4ce5cc3bb.gif)
+![BirthDayNoteGif](https://user-images.githubusercontent.com/58392243/185425902-08fcea88-79a9-411d-b200-33b5769cc234.gif)
 
