@@ -10,6 +10,7 @@
 		17460B7B28B3ADF600099220 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17460B7A28B3ADF600099220 /* PlacesVC.swift */; };
 		17460B7D28B3C03A00099220 /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17460B7C28B3C03A00099220 /* AddPlaceVC.swift */; };
 		17460B7F28B3DF6000099220 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17460B7E28B3DF6000099220 /* MapVC.swift */; };
+		17B58F7F28B4F75500C73D2F /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B58F7E28B4F75500C73D2F /* PlaceModel.swift */; };
 		17D909B628AFA8B700A1CB35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D909B528AFA8B700A1CB35 /* AppDelegate.swift */; };
 		17D909B828AFA8B700A1CB35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D909B728AFA8B700A1CB35 /* SceneDelegate.swift */; };
 		17D909BA28AFA8B700A1CB35 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D909B928AFA8B700A1CB35 /* SignUpVC.swift */; };
@@ -25,6 +26,7 @@
 		17460B7A28B3ADF600099220 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		17460B7C28B3C03A00099220 /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
 		17460B7E28B3DF6000099220 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		17B58F7E28B4F75500C73D2F /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		17D909B228AFA8B700A1CB35 /* FourSquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D909B528AFA8B700A1CB35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17D909B728AFA8B700A1CB35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				17460B7C28B3C03A00099220 /* AddPlaceVC.swift */,
 				17460B7E28B3DF6000099220 /* MapVC.swift */,
 				17F5399328B3E489008CD3EA /* DetailsVC.swift */,
+				17B58F7E28B4F75500C73D2F /* PlaceModel.swift */,
 				17D909BB28AFA8B700A1CB35 /* Main.storyboard */,
 				17D909C128AFA8BA00A1CB35 /* Assets.xcassets */,
 				17D909C328AFA8BA00A1CB35 /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 				17D909C028AFA8B700A1CB35 /* FourSquareClone.xcdatamodeld in Sources */,
 				17460B7F28B3DF6000099220 /* MapVC.swift in Sources */,
 				17D909B828AFA8B700A1CB35 /* SceneDelegate.swift in Sources */,
+				17B58F7F28B4F75500C73D2F /* PlaceModel.swift in Sources */,
 				17460B7B28B3ADF600099220 /* PlacesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
