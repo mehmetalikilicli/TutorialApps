@@ -28,10 +28,12 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingHeading()
+        locationManager.startUpdatingLocation()
         
         
         let recgonizer = UILongPressGestureRecognizer(target: self, action: #selector(chooseLocation(gestureRecognizer:)))
+        recgonizer.minimumPressDuration = 3
+        mapView.addGestureRecognizer(recgonizer)
         
 
     }
@@ -52,13 +54,9 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
             self.chosenLatitude = String(coordinates.latitude)
             self.chosenLongitude = String(coordinates.longitude)
             
-            
         }
         
-        
-        
     }
-    
     
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -75,10 +73,4 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         self.dismiss(animated: true)
         
     }
-    
-    
-    
-    
-
-
 }
