@@ -22,6 +22,11 @@ SEGUE - SIMPSON BOOK
 
 ![SegueGif](https://user-images.githubusercontent.com/58392243/185447948-d64d95d8-1ba1-4e29-a159-18acfab4a10d.gif) ![SimpsonBookGif](https://user-images.githubusercontent.com/58392243/185448766-8490ba04-b69b-484c-a1be-e2577cc2d30d.gif)
 
-INSTAGRAM CLONE(Firebase Authentication - Firebase Storage - Firabase Database) 
+INSTAGRAM CLONE(Firebase User Authentication - Firebase Storage - Firabase Database) 
 
 ![InstagramCloneGif](https://user-images.githubusercontent.com/58392243/185451155-61474aff-602c-4e55-92eb-1963bd6533c3.gif)
+
+FOURSQUARE CLONE (Parse User Authentication - Parse Database)
+
+![FoursquareCloneGif](https://user-images.githubusercontent.com/58392243/186670326-4e97d604-f4fb-4222-a66c-603bc3157d43.gif)
+
