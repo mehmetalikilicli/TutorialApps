@@ -31,7 +31,7 @@ SEGUE - SIMPSON BOOK
 
 MACHINE LEARNING 
 
-![MachineLearningGif](https://user-images.githubusercontent.com/58392243/186699782-f8dd674b-3d01-4af7-ad38-85bbd58e4c08.gif)
+![MachineLearningGif](https://user-images.githubusercontent.com/58392243/186700540-3ddc5496-6af9-4955-b94f-3633101a732c.gif)
 
 
 
