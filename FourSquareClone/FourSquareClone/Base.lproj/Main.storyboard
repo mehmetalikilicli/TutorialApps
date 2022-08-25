@@ -96,7 +96,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="d16-MC-yhL">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -127,7 +127,7 @@
             <objects>
                 <viewController id="xfA-bC-fmu" customClass="DetailsVC" customModule="FourSquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dn7-Vb-3Qu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BS1-1e-AZl">
@@ -181,33 +181,33 @@
             <objects>
                 <viewController id="jrA-nT-4dK" customClass="AddPlaceVC" customModule="FourSquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="seA-8c-i4X">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ia7-Kc-nCk">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ia7-Kc-nCk">
                                 <rect key="frame" x="43" y="102" width="329" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Type" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SVo-En-Dif">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Type" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SVo-En-Dif">
                                 <rect key="frame" x="43" y="156" width="329" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Atmophere" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htQ-P6-QyD">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place Atmophere" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htQ-P6-QyD">
                                 <rect key="frame" x="43" y="214" width="329" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select" translatesAutoresizingMaskIntoConstraints="NO" id="p9X-EN-blx">
-                                <rect key="frame" x="20" y="289" width="374" height="339"/>
+                                <rect key="frame" x="20" y="309" width="374" height="339"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="339" id="2Ke-6u-Rmg"/>
                                     <constraint firstAttribute="width" constant="374" id="Dl6-St-ft7"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R72-fe-xbq">
-                                <rect key="frame" x="138" y="682" width="138" height="96"/>
+                                <rect key="frame" x="138" y="702" width="138" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="feq-oc-yrd"/>
                                 </constraints>
@@ -276,7 +276,7 @@
                     <navigationItem key="navigationItem" id="UEb-it-FUa"/>
                     <connections>
                         <outlet property="mapView" destination="H1u-b4-VIr" id="jFN-jW-crP"/>
-                        <segue destination="H66-nH-QKw" kind="presentation" identifier="fromMapVCToPlacesVC" modalPresentationStyle="fullScreen" id="USr-Lz-s2n"/>
+                        <segue destination="gdh-qg-OVw" kind="presentation" modalPresentationStyle="fullScreen" id="g5m-P8-GJs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avy-Co-ybN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -323,7 +323,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="USr-Lz-s2n"/>
+        <segue reference="g5m-P8-GJs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="select" width="285" height="275"/>
