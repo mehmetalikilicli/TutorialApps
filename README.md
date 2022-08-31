@@ -1,8 +1,15 @@
 # TutorialApps
 iOS Tutorial Apps
 
-ALERT - ART BOOK 
+INSTAGRAM CLONE(Firebase User Authentication - Firebase Storage - Firabase Database) 
 
+![InstagramCloneGif](https://user-images.githubusercontent.com/58392243/185451155-61474aff-602c-4e55-92eb-1963bd6533c3.gif)
+
+FOURSQUARE CLONE (Parse User Authentication - Parse Database)
+
+![FoursquareCloneGif](https://user-images.githubusercontent.com/58392243/186670326-4e97d604-f4fb-4222-a66c-603bc3157d43.gif)
+
+ALERT - ART BOOK 
 
 ![AlertGif](https://user-images.githubusercontent.com/58392243/185426189-aff97361-8174-4aff-909f-010f6c0ac67a.gif)![ArtBookGif](https://user-images.githubusercontent.com/58392243/185426397-c8d4517e-aef6-4221-8360-44ec2f5fb669.gif)
 
@@ -22,11 +29,9 @@ SEGUE - SIMPSON BOOK
 
 ![SegueGif](https://user-images.githubusercontent.com/58392243/185447948-d64d95d8-1ba1-4e29-a159-18acfab4a10d.gif) ![SimpsonBookGif](https://user-images.githubusercontent.com/58392243/185448766-8490ba04-b69b-484c-a1be-e2577cc2d30d.gif)
 
-INSTAGRAM CLONE(Firebase User Authentication - Firebase Storage - Firabase Database) 
+MACHINE LEARNING 
 
-![InstagramCloneGif](https://user-images.githubusercontent.com/58392243/185451155-61474aff-602c-4e55-92eb-1963bd6533c3.gif)
+![MachineLearningGif](https://user-images.githubusercontent.com/58392243/186700540-3ddc5496-6af9-4955-b94f-3633101a732c.gif)
 
-FOURSQUARE CLONE (Parse User Authentication - Parse Database)
 
-![FoursquareCloneGif](https://user-images.githubusercontent.com/58392243/186670326-4e97d604-f4fb-4222-a66c-603bc3157d43.gif)
 
