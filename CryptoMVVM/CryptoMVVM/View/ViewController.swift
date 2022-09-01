@@ -12,6 +12,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
 
     @IBOutlet weak var tableView: UITableView!
+    
+    var colorArray = [UIColor]()
+
+    
     private var cyrptoListViewModel : CyrptoListViewModel!
     
     override func viewDidLoad() {
@@ -21,6 +25,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        self.colorArray = [
+            UIColor.red,
+            UIColor.blue,
+            UIColor.gray,
+            UIColor.orange,
+            UIColor.brown
+        ]
+
         
         
         
@@ -57,8 +70,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         cell.priceText.text = cryptoViewModel.price
         cell.currencyText.text = cryptoViewModel.name
-        cell.backgroundColor = UIColor.black
-        
+        cell.backgroundColor = self.colorArray[indexPath.row % 5]
+
         return cell
     }
 
