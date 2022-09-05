@@ -1,6 +1,10 @@
 # TutorialApps
 iOS Tutorial Apps
 
+SNAPCHAT CLONE (Firebase User Authentication - Firebase Storage - Firabase Database) 
+
+![SnapchatClone](https://user-images.githubusercontent.com/58392243/188481007-9870bddf-2d8e-422f-97fe-34fed1c9121d.gif)
+
 INSTAGRAM CLONE(Firebase User Authentication - Firebase Storage - Firabase Database) 
 
 ![InstagramCloneGif](https://user-images.githubusercontent.com/58392243/185451155-61474aff-602c-4e55-92eb-1963bd6533c3.gif)
@@ -29,9 +33,10 @@ SEGUE - SIMPSON BOOK
 
 ![SegueGif](https://user-images.githubusercontent.com/58392243/185447948-d64d95d8-1ba1-4e29-a159-18acfab4a10d.gif) ![SimpsonBookGif](https://user-images.githubusercontent.com/58392243/185448766-8490ba04-b69b-484c-a1be-e2577cc2d30d.gif)
 
-MACHINE LEARNING 
+MACHINE LEARNING - CRYPTOMVVM
 
-![MachineLearningGif](https://user-images.githubusercontent.com/58392243/186700540-3ddc5496-6af9-4955-b94f-3633101a732c.gif)
+![MachineLearningGif](https://user-images.githubusercontent.com/58392243/186700540-3ddc5496-6af9-4955-b94f-3633101a732c.gif) ![CryptoMVVM](https://user-images.githubusercontent.com/58392243/188481123-e7334853-da77-4515-93e5-18a245132951.gif)
+
 
 
 
