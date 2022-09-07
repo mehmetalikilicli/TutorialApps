@@ -37,6 +37,9 @@ MACHINE LEARNING - CRYPTOMVVM
 
 ![MachineLearningGif](https://user-images.githubusercontent.com/58392243/186700540-3ddc5496-6af9-4955-b94f-3633101a732c.gif) ![CryptoMVVM](https://user-images.githubusercontent.com/58392243/188481123-e7334853-da77-4515-93e5-18a245132951.gif)
 
+CIRCULARSUI - 
+
+![CircularSUIGif](https://user-images.githubusercontent.com/58392243/188828539-798633eb-92f9-41f5-a2a0-cc9a55b5aa1d.gif)
 
 
 
