@@ -38,7 +38,4 @@ class WebService {
         case dataParseError
     }
     
-    
-    
-    
 }

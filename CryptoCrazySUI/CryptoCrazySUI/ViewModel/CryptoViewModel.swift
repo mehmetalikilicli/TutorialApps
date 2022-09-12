@@ -36,17 +36,13 @@ class CryptoListViewModel: ObservableObject {
 struct CryptoViewModel {
     
     let crypto :Cryptocurrency
-    
     var id : UUID? {
         crypto.id
     }
-    
     var currency : String {
         crypto.currency
     }
-    
     var price: String {
         crypto.price
     }
-    
 }
