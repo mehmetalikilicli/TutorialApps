@@ -23,13 +23,7 @@ class WebService {
                 if let cryptoList = cryptoList {
                     completion(cryptoList)
                 }
-                
             }
         }.resume()
-        
-        
-        
     }
-    
-    
 }

@@ -21,11 +21,8 @@ struct CyrptoListViewModel {
         let cyrpto = self.cyrptoCurrencyList[index]
         return CyrptoViewModel(cyrptoCurrency: cyrpto)
         
-        
     }
 }
-
-
 struct CyrptoViewModel {
     
     let cyrptoCurrency : CryptoCurrency
@@ -37,6 +34,4 @@ struct CyrptoViewModel {
     var price : String {
         return self.cyrptoCurrency.price
     }
-    
-    
 }

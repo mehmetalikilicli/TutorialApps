@@ -33,12 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             UIColor.orange,
             UIColor.brown
         ]
-
-        
-        
-        
         getData()
-        
     }
     
     func getData() {
@@ -47,11 +42,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         WebService().getCurrencies(url: url) { cyrptos in
             if let cyrptos = cyrptos {
                 self.cyrptoListViewModel = CyrptoListViewModel(cyrptoCurrencyList: cyrptos)
-                
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }
-                
                 
             }
         }
