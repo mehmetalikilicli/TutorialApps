@@ -17,6 +17,7 @@
 		170A18EC28C0D7A9006E18A5 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A18EB28C0D7A9006E18A5 /* CryptoCurrency.swift */; };
 		170A18EE28C0D923006E18A5 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A18ED28C0D923006E18A5 /* WebService.swift */; };
 		170A18F028C0DBFC006E18A5 /* CyrptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A18EF28C0DBFC006E18A5 /* CyrptoViewModel.swift */; };
+		17F1E616292E593B009E8149 /* CryptoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F1E615292E593B009E8149 /* CryptoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		170A18EB28C0D7A9006E18A5 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
 		170A18ED28C0D923006E18A5 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		170A18EF28C0DBFC006E18A5 /* CyrptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrptoViewModel.swift; sourceTree = "<group>"; };
+		17F1E615292E593B009E8149 /* CryptoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				170A18EF28C0DBFC006E18A5 /* CyrptoViewModel.swift */,
+				17F1E615292E593B009E8149 /* CryptoListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				170A18E628C0D655006E18A5 /* CyrptoTableViewCell.swift in Sources */,
 				170A18D628C0D4EE006E18A5 /* ViewController.swift in Sources */,
 				170A18D228C0D4EE006E18A5 /* AppDelegate.swift in Sources */,
+				17F1E616292E593B009E8149 /* CryptoListViewModel.swift in Sources */,
 				170A18EC28C0D7A9006E18A5 /* CryptoCurrency.swift in Sources */,
 				170A18D428C0D4EE006E18A5 /* SceneDelegate.swift in Sources */,
 			);
